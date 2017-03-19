@@ -1,12 +1,69 @@
 header {
-	float: left;
 	width: 100%;
+	background: #ffffff;
+	margin-left: 150px;
+	margin-bottom: 0px;
 }
+
+h1 {
+	background-color: #4aaaa5;
+	width: 200px;
+	padding: 21px;
+	float: left;
+	margin-bottom: 0px;
+	font-family: times;
+}
+
+h2 {
+	font-family: serif;
+}
+
+#about {
+	margin-left: 300px;
+	margin-right: 20px;
+}
+
+#contact {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#portfolio {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
 
 a {
+	font-family: arial;
 }
 
-body {
+p {
+	float: left;
+}
+
+.aboutMe {
+	margin-top: 0px;
+	clear: left;
+	background-color: #ffffff;
+	float: left;
+	height: 300px;
+	width: 430px;
+	margin-left: 80px;
+}
+
+
+.mainContent {
+	background-image: url(images/background.png);
+	background-color: #ffffff;
+	border-color: #dddddd;
+}
+
+.connectWithMe {
+	float: left;
+	height: 200px;
+	width: 400px;
+	margin-left: 200px;
 }
 
 footer {
@@ -16,5 +73,6 @@ footer {
 	height: 60px;
 	width: 100%;
 	background: #666666;
+	padding-top: 20px;
 	text-align: center;
 }
