@@ -1,0 +1,102 @@
+body {
+	background-image: url(images/background.png)
+}
+
+#header {
+	background-color: #ffffff;
+	border-color: #cccccc;
+	border-bottom:2px solid #bbb;
+	width: 1160px;
+	height: 90px;
+}
+
+h1 {
+	font-family: Georgia;
+	font-size: 50px;
+	background-color: #4aaaa5;
+	width: 275px;
+	padding: 20px;
+	margin-left: 150px;
+	float: left;
+}
+
+#aboutli {
+	margin-left: 200px;
+	border-right:2px solid #bbb
+}
+
+#portfolioli {
+	border-right:2px solid #bbb
+}
+
+li {
+	display: inline;
+	margin-left: 10px;
+
+}
+
+li a {
+	list-style-type: none;
+	text-decoration: none;
+	font-family: arial;
+	display: inline-block;
+	margin-top: 35px;
+	font-size: 20px;
+	color: #777777;
+	margin-right: 10px;
+}
+
+h2 {
+	color: #4aaaa5;
+	font-family: Georgia;
+	font-size: 30px;
+	border-bottom: 2px solid #bbb;
+	margin-bottom: 10px;
+}
+
+img {
+	float: left;
+	margin-right: 5px;
+}
+
+#main-left {
+	margin-top: 30px;
+	margin-left: 150px;
+	float: left;
+	width: 650px;
+	background-color: #ffffff;
+	border-color: #dddddd;
+	height: 400px;
+	padding: 20px;
+}
+
+p {
+	line-height: 130%;
+}
+
+#main-right {
+	float: left;
+	padding: 20px;
+	background-color: #ffffff;
+	border-color: #dddddd;
+	margin-top: 30px;
+	margin-left: 10px;
+	width: 270px;
+	height: 130px;
+}
+
+#main {
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-size: 20px;
+  color: white;
+  padding: 1rem;
+  background-color: #666666;
+  text-align: center;
+  padding: 40px;
+}
