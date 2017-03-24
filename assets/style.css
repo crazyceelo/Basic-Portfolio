@@ -1,34 +1,32 @@
 html, body {
 	background-image: url(images/background.png);
-	padding: 0;
-	margin: 0;
-	height: 100%;
 }
 
 .wrapper {
-	min-height: 100%;
-	position: relative;
 }
 
 .content {
-	padding-bottom: 70px;
-	min-height: 100%;
 }
 
 .main {
 }
 
-#footer1 {
-	bottom: 0;
+#portfolio-footer {
+}
+
+.common-footer {
 }
 
 footer {
+	border-top: 5px 0px 0px 0px;
+	border-color: #ffffff;
 	width: 100%;
 	font-size: 20px;
 	color: white;
 	background-color: #666666;
 	text-align: center;
 	padding: 40px;
+	float: left;
 }
 
 #header {
@@ -38,6 +36,7 @@ footer {
 	width: 1160px;
 	height: 90px;
 	color: #ffffff;
+	float: left;
 }
 
 h1 {
@@ -92,6 +91,7 @@ img {
 #main-left {
 	margin-top: 30px;
 	margin-left: 150px;
+	margin-bottom: 215px;
 	float: left;
 	width: 650px;
 	background-color: #ffffff;
@@ -158,5 +158,5 @@ h3 {
 	padding: 20px;
 	font-family: arial;
 	color: #777777;
-	margin-bottom: 200px;
+	margin-bottom: 180px;
 }
